@@ -5,3 +5,6 @@
 - Xcoce11以降
 - iOS13以降
 - Apple ID
+
+# 実施したこと
+- Xcode12のインストール
