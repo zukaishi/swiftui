@@ -23,8 +23,8 @@ class ViewController: UIViewController {
 struct ViewController_Previews: PreviewProvider {
     static var previews: some View {
         /*@START_MENU_TOKEN@*/Group {
-            Text("Hello, World!")
-            Text("Hello, World!")
+        Text("Hello, SwiftUI!!!!")
+            .font(.largeTitle)
         }/*@END_MENU_TOKEN@*/
     }
 }
