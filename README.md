@@ -18,3 +18,8 @@
  - Hello World済
 - Todoプロジェクト新規作成
  - 縦固定のため、Landscape　Left, Rightチェック外す
+ - Image 
+  - resizable 画像サイズ
+  - scaledToFit 縦幅横幅で調整
+  - colorLiteral 既成色から選択
+  
