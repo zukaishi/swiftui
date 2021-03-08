@@ -13,8 +13,10 @@ struct CategoryImage: View {
             .resizable()
             .scaledToFit()
             .foregroundColor(.white)
+            .padding(2.0)
             .frame(width: 30,height: 30)
             .background(Color(#colorLiteral(red: 0.2392156869, green: 0.6745098233, blue: 0.9686274529, alpha: 1)))
+            .cornerRadius(6.0)
     }
 }
 
