@@ -33,6 +33,10 @@ struct CheckBox_Previews: PreviewProvider {
             CheckBox(checked: .constant(false)) {
                 Text("牛乳を買う")
             }
+            CheckBox(checked: .constant(true)) {
+                Image(systemName: "hand.thumbsup")
+                Text("牛乳を買う")
+            }
         }
     }
 }
