@@ -9,9 +9,15 @@ import SwiftUI
 
 struct UserView: View {
     var body: some View {
-        VStack(alignment: .leading) {
-            Text("こんにちわ")
-            Text("hiroki.ishizuka")
+        VStack {
+            HStack {
+                VStack(alignment: .leading) {
+                    Text("こんにちわa")
+                    Text("hiroki.ishizuka")
+                }
+                Image("profile")
+                    .resizable().frame(width:60,height:60)
+            }
         }
     }
 }
