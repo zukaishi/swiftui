@@ -8,7 +8,7 @@
 import SwiftUI
 
 extension Color {
-    static let tBackground = Color(#colorLiteral(red: 0.063, green: 0, blue: 0.192, alpha: 1))
+    static let tBackground = Color(#colorLiteral(red: 0, green: 0, blue: 0, alpha: 1))
     static let tRed = Color(#colorLiteral(red: 1, green: 0.2902, blue: 0.4745, alpha: 1))
     static let tBlue = Color(#colorLiteral(red: 0.0706, green: 0.6392, blue: 0.9922, alpha: 1))
     static let tYellow = Color(#colorLiteral(red: 1, green: 0.7569, blue: 0.2235, alpha: 1))
