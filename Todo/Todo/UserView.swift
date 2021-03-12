@@ -15,8 +15,11 @@ struct UserView: View {
                     Text("こんにちわa")
                     Text("hiroki.ishizuka")
                 }
+                Spacer()
                 Image("profile")
-                    .resizable().frame(width:60,height:60)
+                    .resizable()
+                    .frame(width:60,height:60)
+                    .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
             }
         }
     }
@@ -24,6 +27,9 @@ struct UserView: View {
 
 struct UserView_Previews: PreviewProvider {
     static var previews: some View {
-        UserView()
+        Group {
+            UserView()
+            Circle()
+        }
     }
 }
