@@ -13,7 +13,9 @@ struct UserView: View {
             HStack {
                 VStack(alignment: .leading) {
                     Text("こんにちわa")
+                        .foregroundColor(Color.tTitle)
                     Text("hiroki.ishizuka")
+                        .foregroundColor(Color.tTitle)
                 }
                 Spacer()
                 Image("profile")
@@ -21,6 +23,8 @@ struct UserView: View {
                     .frame(width:60,height:60)
                     .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
             }
+            .padding()
+            .background(Color.tBackground)
         }
     }
 }
