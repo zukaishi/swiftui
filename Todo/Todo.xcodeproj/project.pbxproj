@@ -19,6 +19,7 @@
 		2A7116C925F972F300E66A58 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7116C825F972F200E66A58 /* Color+Extension.swift */; };
 		2A7116CD25F973D300E66A58 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7116CC25F973D300E66A58 /* UserView.swift */; };
 		2AD1EEC925FFFE48002370CB /* TodoEntity+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD1EEC825FFFE48002370CB /* TodoEntity+Extension.swift */; };
+		2AD1EECC25FFFEE7002370CB /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD1EECB25FFFEE7002370CB /* CategoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		2A7116C825F972F200E66A58 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 		2A7116CC25F973D300E66A58 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
 		2AD1EEC825FFFE48002370CB /* TodoEntity+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TodoEntity+Extension.swift"; sourceTree = "<group>"; };
+		2AD1EECB25FFFEE7002370CB /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				2A7116C025F57FD800E66A58 /* CategoryImage.swift */,
 				2A7116C425F6D59100E66A58 /* CheckBox.swift */,
 				2A7116CC25F973D300E66A58 /* UserView.swift */,
+				2AD1EECB25FFFEE7002370CB /* CategoryView.swift */,
 				2A7116B125F57BC300E66A58 /* Assets.xcassets */,
 				2A7116B625F57BC400E66A58 /* LaunchScreen.storyboard */,
 				2A7116B925F57BC400E66A58 /* Info.plist */,
@@ -175,6 +178,7 @@
 				2A7116C925F972F300E66A58 /* Color+Extension.swift in Sources */,
 				2A7116AB25F57BBF00E66A58 /* SceneDelegate.swift in Sources */,
 				2A7116CD25F973D300E66A58 /* UserView.swift in Sources */,
+				2AD1EECC25FFFEE7002370CB /* CategoryView.swift in Sources */,
 				2A7116C525F6D59100E66A58 /* CheckBox.swift in Sources */,
 				2A7116AD25F57BBF00E66A58 /* ContentView.swift in Sources */,
 				2A7116C125F57FD800E66A58 /* CategoryImage.swift in Sources */,
