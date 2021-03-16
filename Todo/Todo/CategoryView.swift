@@ -12,16 +12,22 @@ struct CategoryView: View {
     @State var numberOfTasks = 0
     var body: some View {
         VStack {
-            VStack {
+            VStack(alignment: .leading) {
                 Image(systemName: category.image())
+                    .font(.largeTitle)
                 Text(category.toString())
                 Text("・ \(numberOfTasks)タスク")
             }
-            Button(action: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/{}/*@END_MENU_TOKEN@*/) {
+            Button(action: {}) {
                 Image(systemName: "plus")
             }
             Spacer()
         }
+            .padding()
+            .frame(maxWidth:.infinity,minHeight:150)
+            .foregroundColor(.white)
+            .background(category.color())
+            .cornerRadius(20)
     }
 }
 
