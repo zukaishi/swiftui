@@ -17,10 +17,13 @@ struct QuickNewTask: View {
     fileprivate func cancelTask() {
         self.newTask = ""
     }
+
     var body: some View {
         HStack {
-            TextField("新しいタスク", text: $newTask)
-            
+            TextField("新しいタスク", text: $newTask) {
+                self.addNewTask()
+            }
+                .textFieldStyle(RoundedBorderTextFieldStyle())
             Button(action: {
                 self.addNewTask()
             }) {
