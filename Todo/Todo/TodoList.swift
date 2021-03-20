@@ -6,9 +6,14 @@
 //
 
 import SwiftUI
+import CoreData
 
 struct TodoList: View {
-    
+    @FetchRequest(
+        sortDescriptors: [NSSortDescriptor(keyPath: \TodoEntity.time, ascending: true)],
+        animation: .default)
+    var todoList: FetchedResults<TodoEntity>
+
     let category: TodoEntity.Category
 
     var body: some View {
