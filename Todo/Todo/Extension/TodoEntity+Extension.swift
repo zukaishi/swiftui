@@ -8,8 +8,9 @@
 import CoreData
 import SwiftUI
 
+extension TodoEntity: Identifiable{}
 extension TodoEntity {
-
+    
     static func create(in managedObjectContext: NSManagedObjectContext,
                        category: Category,
                        task: String,
